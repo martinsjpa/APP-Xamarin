@@ -18,6 +18,7 @@ namespace Desafio
         public MainPage()
         {
             InitializeComponent();
+            GetAddressBaseAsync();
             BUTTON.Clicked += FindCep;
 
         }
@@ -30,12 +31,12 @@ namespace Desafio
             {
                 try
                 {
-                    GetAddressBaseAsync();
                     Address result = ViaCepService.FindAdressViaCep(find);
 
                     if(!addressRepositories.Contains((object)result))
                     {
                         var test = App.Database.SaveAddressAsync(new AddressRepository(result.Cep, result.Logradouro, result.Bairro, result.Logradouro, result.Uf));
+                        GetAddressBaseAsync();
                     }
                     
                    
@@ -70,6 +71,7 @@ namespace Desafio
         private async void GetAddressBaseAsync()
         {
             addressRepositories = await App.Database.GetAddressAsync();
+            listView.ItemsSource = addressRepositories; 
         }
     }
 }
