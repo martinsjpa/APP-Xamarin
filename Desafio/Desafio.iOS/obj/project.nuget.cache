@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "P67gwDdm7DAzxM81byRtCt24lw71O37L0GH8lPz8m0MPv9k1IVm61B8oajnnUzvJujTvQ+w5DsXMzPsaLddo3Q==",
+  "dgSpecHash": "1b1o1Ph2gEMCcNvQmx3DNX5r1kHtaCuNCI0YOY/UVTUWkkJEox86NThwooYbewxtMd9iAXKW4GBdJb8/Es8VcQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Matheus Martins\\Desktop\\Xamarin\\Desafio\\Desafio.iOS\\Desafio.iOS.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Matheus Martins\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.8.0.1451\\xamarin.forms.4.8.0.1451.nupkg.sha512"
   ],
