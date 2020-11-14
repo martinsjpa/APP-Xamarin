@@ -1,4 +1,5 @@
 ﻿using Desafio.Models;
+using Desafio.Repository;
 using Desafio.Services;
 using System;
 using System.Collections.Generic;
@@ -12,6 +13,8 @@ namespace Desafio
 {
     public partial class MainPage : ContentPage
     {
+        public List<AddressRepository> addressRepositories { get; set; }
+
         public MainPage()
         {
             InitializeComponent();
@@ -27,8 +30,15 @@ namespace Desafio
             {
                 try
                 {
+                    GetAddressBaseAsync();
                     Address result = ViaCepService.FindAdressViaCep(find);
 
+                    if(!addressRepositories.Contains((object)result))
+                    {
+                        var test = App.Database.SaveAddressAsync(new AddressRepository(result.Cep, result.Logradouro, result.Bairro, result.Logradouro, result.Uf));
+                    }
+                    
+                   
                     RESULT.Text = string.Format("Endereço: {0}, {1}, {2}, {3}, {4}", result.Cep, result.Logradouro, result.Bairro, result.Localidade, result.Uf);
                 }
                 catch(Exception e)
@@ -55,6 +65,11 @@ namespace Desafio
             }
 
             return true;
+        }
+
+        private async void GetAddressBaseAsync()
+        {
+            addressRepositories = await App.Database.GetAddressAsync();
         }
     }
 }

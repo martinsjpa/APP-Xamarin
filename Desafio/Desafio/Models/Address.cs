@@ -16,5 +16,8 @@ namespace Desafio.Models
         public string Ibge { get; set; }
         public string Gia { get; set; }
 
+
+
+
     }
 }

@@ -8,6 +8,15 @@
         <Button Text="Buscar CEP" TextColor="White" BackgroundColor="Blue" x:Name="BUTTON"/>
         <Label Text="" VerticalOptions="Center" HorizontalOptions="Center" x:Name="RESULT"  />
 
+        <ListView x:Name="listView">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <TextCell Text="{Binding Cep}" />
+
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
     </StackLayout>
 
 </ContentPage>
