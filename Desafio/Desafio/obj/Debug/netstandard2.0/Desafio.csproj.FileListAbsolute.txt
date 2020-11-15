@@ -1,6 +1,5 @@
 C:\Users\Matheus Martins\Desktop\Xamarin\Desafio\Desafio\obj\Debug\netstandard2.0\Desafio.csprojAssemblyReference.cache
 C:\Users\Matheus Martins\Desktop\Xamarin\Desafio\Desafio\obj\Debug\netstandard2.0\App.xaml.g.cs
-C:\Users\Matheus Martins\Desktop\Xamarin\Desafio\Desafio\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
 C:\Users\Matheus Martins\Desktop\Xamarin\Desafio\Desafio\obj\Debug\netstandard2.0\Desafio.AssemblyInfoInputs.cache
 C:\Users\Matheus Martins\Desktop\Xamarin\Desafio\Desafio\obj\Debug\netstandard2.0\Desafio.AssemblyInfo.cs
 C:\Users\Matheus Martins\Desktop\Xamarin\Desafio\Desafio\obj\Debug\netstandard2.0\Desafio.csproj.CoreCompileInputs.cache
@@ -12,3 +11,7 @@ C:\Users\Matheus Martins\Desktop\Xamarin\Desafio\Desafio\bin\Debug\netstandard2.
 C:\Users\Matheus Martins\Desktop\Xamarin\Desafio\Desafio\bin\Debug\netstandard2.0\ref\Desafio.dll
 C:\Users\Matheus Martins\Desktop\Xamarin\Desafio\Desafio\bin\Debug\netstandard2.0\Desafio.pdb
 C:\Users\Matheus Martins\Desktop\Xamarin\Desafio\Desafio\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Matheus Martins\Desktop\Xamarin\Desafio\Desafio\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+C:\Users\Matheus Martins\Desktop\Xamarin\Desafio\Desafio\obj\Debug\netstandard2.0\Views\Tabbed.xaml.g.cs
+C:\Users\Matheus Martins\Desktop\Xamarin\Desafio\Desafio\obj\Debug\netstandard2.0\Views\CepDetails.xaml.g.cs
+C:\Users\Matheus Martins\Desktop\Xamarin\Desafio\Desafio\obj\Debug\netstandard2.0\Views\CepList.xaml.g.cs

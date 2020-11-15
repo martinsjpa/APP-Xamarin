@@ -3,6 +3,7 @@ using System;
 using System.IO;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using Desafio.Views;
 
 namespace Desafio
 {
@@ -26,7 +27,7 @@ namespace Desafio
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new Tabbed();
         }
 
         protected override void OnStart()

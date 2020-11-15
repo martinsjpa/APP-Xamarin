@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Desafio.Views.CepDetails">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label FontSize="Title" x:Name="NUMBERCEP" Text=""  
+                HorizontalOptions="CenterAndExpand" />
+
+            <Label Margin="20" x:Name="CEP"   />
+
+            <Button Text="Voltar" TextColor="White" HorizontalOptions="Center" BackgroundColor="Blue" Clicked="redirectToCepList" />
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

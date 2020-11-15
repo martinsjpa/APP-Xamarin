@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Desafio.Views.MainPage">
+
+    <StackLayout BackgroundColor="White" Margin="30" Spacing="30">
+        <Entry Placeholder="Digite o CEP" PlaceholderColor="Blue" x:Name="CEP" />
+        <Button Text="Buscar CEP" TextColor="White" BackgroundColor="Blue" x:Name="BUTTON"/>
+        <Label Text="" VerticalOptions="Center" HorizontalOptions="Center" x:Name="RESULT"  />
+
+ 
+
+    </StackLayout>
+
+</ContentPage>

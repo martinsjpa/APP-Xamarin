@@ -32,9 +32,12 @@ namespace Desafio.Repository
         {
             if(obj != null)
             {
-                Address convert = (Address)obj;
-                if (Cep.Equals(convert.Cep))
-                    return true;
+                if(typeof(Address).IsInstanceOfType(obj))
+                {
+                    Address convert = (Address)obj;
+                    if (Cep.Equals(convert.Cep))
+                        return true;
+                }
             }
             
             return false;

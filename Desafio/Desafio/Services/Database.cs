@@ -27,5 +27,10 @@ namespace Desafio.Services
             return _database.InsertAsync(address);
         }
 
+        public Task<int> delete(int i)
+        {
+            return _database.DeleteAsync(i);
+        }
+
     }
 }
