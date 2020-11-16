@@ -41,7 +41,7 @@ namespace Desafio.Views
                     if (!addressRepositories.Contains((object)result))
                     {
                         var task = await SaveAddressBase(new AddressRepository(result.Cep, result.Logradouro, result.Bairro, result.Logradouro, result.Uf));
-                        
+                        new CepList().GetAddressBaseAsync(); // Chamada feita para Atualizar a Lista na Aba 2 
                     }
 
 

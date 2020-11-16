@@ -20,9 +20,10 @@ namespace Desafio.Views
             InitializeComponent();
         }
 
-        private async void GetAddressBaseAsync()
+        public async void GetAddressBaseAsync()
         {
             addressRepositories = await App.Database.GetAddressAsync();
+            addressRepositories = addressRepositories.OrderByDescending(x => x.Cep).ToList();
             BindingContext = this;
         }
 
