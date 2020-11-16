@@ -45,7 +45,7 @@ namespace Desafio.Views
                     }
 
 
-                    RESULT.Text = string.Format("Endereço: {0}, {1}, {2}, {3}, {4}", result.Cep, result.Logradouro, result.Bairro, result.Localidade, result.Uf);
+                    RESULT.Text = string.Format(" Endereço:\n {0}\n {1}\n {2}\n {3}\n {4}\n", result.Cep, result.Logradouro, result.Bairro, result.Localidade, result.Uf);
                     return 1;
                 }
                 catch (Exception e)
