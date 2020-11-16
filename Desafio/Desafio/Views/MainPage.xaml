@@ -5,7 +5,7 @@
 
     <StackLayout BackgroundColor="White" Margin="30" Spacing="30">
         <Entry Placeholder="Digite o CEP" PlaceholderColor="Blue" x:Name="CEP" />
-        <Button Text="Buscar CEP" TextColor="White" BackgroundColor="Blue" x:Name="BUTTON"/>
+        <Button Text="Buscar CEP" TextColor="White" BackgroundColor="Blue" x:Name="BUTTON" Clicked="eventClick"/>
         <Label Text="" VerticalOptions="Center" HorizontalOptions="Center" x:Name="RESULT"  />
 
  

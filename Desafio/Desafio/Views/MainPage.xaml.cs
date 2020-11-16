@@ -18,40 +18,44 @@ namespace Desafio.Views
         public MainPage()
         {
             InitializeComponent();
-            GetAddressBase();
-            BUTTON.Clicked += FindCep;
           
-            
-
         }
 
-        private void FindCep(object sender, EventArgs args)
+        public void eventClick(object sender, EventArgs args)
+        {
+            FindCep();
+        }
+
+        public async Task<int> FindCep()
         {
             var find = CEP.Text.Trim();
             find = find.Replace("-", "");
-
 
             if (isValidCep(find))
             {
                 try
                 {
+                    addressRepositories = await GetAddressBase();
                     Address result = ViaCepService.FindAdressViaCep(find);
 
-                    if(!addressRepositories.Contains((object)result))
+                    if (!addressRepositories.Contains((object)result))
                     {
-                        SaveAddressBase(new AddressRepository(result.Cep, result.Logradouro, result.Bairro, result.Logradouro, result.Uf));
-                        GetAddressBase();
+                        var task = await SaveAddressBase(new AddressRepository(result.Cep, result.Logradouro, result.Bairro, result.Logradouro, result.Uf));
+                        
                     }
-                    
-                   
+
+
                     RESULT.Text = string.Format("Endereço: {0}, {1}, {2}, {3}, {4}", result.Cep, result.Logradouro, result.Bairro, result.Localidade, result.Uf);
+                    return 1;
                 }
-                catch(Exception e)
+                catch (Exception e)
                 {
                     DisplayAlert("Erro:", e.Message, "OK");
                 }
-                
+
             }
+
+            return 0;
             
         }
 
@@ -72,14 +76,14 @@ namespace Desafio.Views
             return true;
         }
 
-        private async void GetAddressBase()
+        private async Task<List<AddressRepository>> GetAddressBase()
         {
-            addressRepositories = await App.Database.GetAddressAsync();
+            return  await App.Database.GetAddressAsync();
         }
 
-        private async void SaveAddressBase(AddressRepository address)
+        private async Task<int> SaveAddressBase(AddressRepository address)
         {
-            var result = await App.Database.SaveAddressAsync(address);
+            return  await App.Database.SaveAddressAsync(address);
         }
     }
 }

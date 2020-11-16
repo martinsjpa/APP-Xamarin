@@ -17,20 +17,16 @@ namespace Desafio.Services
             _database.CreateTableAsync<AddressRepository>().Wait();
         }
 
-        public Task<List<AddressRepository>> GetAddressAsync()
+        public async Task<List<AddressRepository>> GetAddressAsync()
         {
-            return _database.Table<AddressRepository>().ToListAsync();
+            return await _database.Table<AddressRepository>().ToListAsync();
         }
 
-        public Task<int> SaveAddressAsync(AddressRepository address)
+        public async Task<int> SaveAddressAsync(AddressRepository address)
         {
-            return _database.InsertAsync(address);
+            return await _database.InsertAsync(address);
         }
 
-        public Task<int> delete(int i)
-        {
-            return _database.DeleteAsync(i);
-        }
 
     }
 }
