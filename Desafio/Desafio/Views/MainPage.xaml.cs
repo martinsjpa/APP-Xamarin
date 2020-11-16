@@ -13,7 +13,6 @@ namespace Desafio.Views
 {
     public partial class MainPage : ContentPage
     {
-        public List<AddressRepository> addressRepositories { get; set; }
 
         public MainPage()
         {
@@ -35,13 +34,12 @@ namespace Desafio.Views
             {
                 try
                 {
-                    addressRepositories = await GetAddressBase();
+                    var addressRepositories = await GetAddressBase();
                     Address result = ViaCepService.FindAdressViaCep(find);
 
                     if (!addressRepositories.Contains((object)result))
                     {
                         var task = await SaveAddressBase(new AddressRepository(result.Cep, result.Logradouro, result.Bairro, result.Logradouro, result.Uf));
-                        new CepList().GetAddressBaseAsync(); // Chamada feita para Atualizar a Lista na Aba 2 
                     }
 
 
@@ -75,6 +73,7 @@ namespace Desafio.Views
 
             return true;
         }
+
 
         private async Task<List<AddressRepository>> GetAddressBase()
         {

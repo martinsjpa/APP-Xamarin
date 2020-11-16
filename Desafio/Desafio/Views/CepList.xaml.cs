@@ -16,11 +16,12 @@ namespace Desafio.Views
         public List<AddressRepository> addressRepositories { get; set; }
         public CepList()
         {
-            GetAddressBaseAsync();
+            GetAddressBase();
             InitializeComponent();
+            LIST.Refreshing += refreshPage;
         }
 
-        public async void GetAddressBaseAsync()
+        private async void GetAddressBase()
         {
             addressRepositories = await App.Database.GetAddressAsync();
             addressRepositories = addressRepositories.OrderByDescending(x => x.Cep).ToList();
@@ -31,6 +32,14 @@ namespace Desafio.Views
         {
             AddressRepository address = selected.SelectedItem as AddressRepository;
             App.Current.MainPage = new CepDetails(address);
+        }
+
+        private async void refreshPage(object sender, EventArgs e)
+        {
+            GetAddressBase();
+            await Task.Delay(3000);
+            LIST.ItemsSource = addressRepositories;
+            LIST.IsRefreshing = false;
         }
     }
 }

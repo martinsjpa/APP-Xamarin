@@ -4,7 +4,7 @@
              x:Class="Desafio.Views.CepList">
     <ContentPage.Content>
         <StackLayout>
-            <ListView ItemsSource="{Binding addressRepositories}" ItemSelected="OnListViewItemSelected">
+            <ListView x:Name="LIST" ItemsSource="{Binding addressRepositories}" ItemSelected="OnListViewItemSelected" IsPullToRefreshEnabled="True">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <TextCell Text="{Binding Cep}" />
@@ -13,6 +13,8 @@
 
 
             </ListView>
+
+            <Label  Text="Segure e arraste para baixo para atualizar a lista"  VerticalOptions="End" Margin="30" HorizontalOptions="Start"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -8,7 +8,7 @@
         <Button Text="Buscar CEP" TextColor="White" BackgroundColor="Blue" x:Name="BUTTON" Clicked="eventClick"/>
         <Label Text="" FontSize="Medium" VerticalOptions="Center" HorizontalOptions="Center" x:Name="RESULT"  />
 
- 
+
 
     </StackLayout>
 
