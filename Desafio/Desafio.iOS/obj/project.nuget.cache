@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hkMS5CiWVl0Jaoa/9d8+sU03Q+HuB3YQ1FnZ5agej8++IxuOoDES9NlRuHRQL3n0E5cTk/I3dTWtI4QKNQ/Qgw==",
+  "dgSpecHash": "PLBgwDHhzDZZyD4K5XFxSdXxCmBLilIbpqLhp4xs6Khhhpu09LESNaV5HBHg5cOqNousquIOd+qKTqesi8E2sg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Matheus Martins\\Desktop\\Xamarin\\Desafio\\Desafio.iOS\\Desafio.iOS.csproj",
+  "projectFilePath": "C:\\Users\\Matheus Martins\\Desktop\\Xamarin\\App-Xamarin\\Desafio\\Desafio.iOS\\Desafio.iOS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Matheus Martins\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\Matheus Martins\\.nuget\\packages\\sqlite-net-pcl\\1.7.335\\sqlite-net-pcl.1.7.335.nupkg.sha512",

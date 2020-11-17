@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "08/r7pcWhdfmUnm5xtNvDKodhfOXasj2zOAtLSHKdW1gnGS4Imp4xFI7ca4GUyZ/yHo8q6G3wt/0v0iL0AVo+g==",
+  "dgSpecHash": "hJj4Y8LzrtVx2ZDYixM0W5OKd+X7jrnUPIpF94o4JKtyYbf71dbotCUlgRA+T/XiHpVNpktAqjGB6ym607iA1w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Matheus Martins\\Desktop\\Xamarin\\Desafio\\Desafio.Android\\Desafio.Android.csproj",
+  "projectFilePath": "C:\\Users\\Matheus Martins\\Desktop\\Xamarin\\App-Xamarin\\Desafio\\Desafio.Android\\Desafio.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Matheus Martins\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\Matheus Martins\\.nuget\\packages\\sqlite-net-pcl\\1.7.335\\sqlite-net-pcl.1.7.335.nupkg.sha512",

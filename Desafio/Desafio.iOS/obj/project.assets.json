@@ -1617,11 +1617,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Matheus Martins\\Desktop\\Xamarin\\Desafio\\Desafio.iOS\\Desafio.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\Matheus Martins\\Desktop\\Xamarin\\App-Xamarin\\Desafio\\Desafio.iOS\\Desafio.iOS.csproj",
       "projectName": "Desafio.iOS",
-      "projectPath": "C:\\Users\\Matheus Martins\\Desktop\\Xamarin\\Desafio\\Desafio.iOS\\Desafio.iOS.csproj",
+      "projectPath": "C:\\Users\\Matheus Martins\\Desktop\\Xamarin\\App-Xamarin\\Desafio\\Desafio.iOS\\Desafio.iOS.csproj",
       "packagesPath": "C:\\Users\\Matheus Martins\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Matheus Martins\\Desktop\\Xamarin\\Desafio\\Desafio.iOS\\obj\\",
+      "outputPath": "C:\\Users\\Matheus Martins\\Desktop\\Xamarin\\App-Xamarin\\Desafio\\Desafio.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -1642,8 +1642,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\Matheus Martins\\Desktop\\Xamarin\\Desafio\\Desafio\\Desafio.csproj": {
-              "projectPath": "C:\\Users\\Matheus Martins\\Desktop\\Xamarin\\Desafio\\Desafio\\Desafio.csproj"
+            "C:\\Users\\Matheus Martins\\Desktop\\Xamarin\\App-Xamarin\\Desafio\\Desafio\\Desafio.csproj": {
+              "projectPath": "C:\\Users\\Matheus Martins\\Desktop\\Xamarin\\App-Xamarin\\Desafio\\Desafio\\Desafio.csproj"
             }
           }
         }

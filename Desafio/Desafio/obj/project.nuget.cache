@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "do9elolKdpYetSEf70cXFO8TTUAXfgesKReeCFRhma90W90FuUwy3+QvLfszRO5tH6JIpCLev1E/7dc/hOplAw==",
+  "dgSpecHash": "4B9v856nbLJHRQnlGRw71JPs0CWaId3VsxK1OEG3o1Q6zrSr2Ss8k7jZ7HoHK3GLBwu2F1LhFohCz+lliWj81A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Matheus Martins\\Desktop\\Xamarin\\Desafio\\Desafio\\Desafio.csproj",
+  "projectFilePath": "C:\\Users\\Matheus Martins\\Desktop\\Xamarin\\App-Xamarin\\Desafio\\Desafio\\Desafio.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Matheus Martins\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Matheus Martins\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",

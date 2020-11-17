@@ -2428,11 +2428,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Matheus Martins\\Desktop\\Xamarin\\Desafio\\Desafio.Android\\Desafio.Android.csproj",
+      "projectUniqueName": "C:\\Users\\Matheus Martins\\Desktop\\Xamarin\\App-Xamarin\\Desafio\\Desafio.Android\\Desafio.Android.csproj",
       "projectName": "Desafio.Android",
-      "projectPath": "C:\\Users\\Matheus Martins\\Desktop\\Xamarin\\Desafio\\Desafio.Android\\Desafio.Android.csproj",
+      "projectPath": "C:\\Users\\Matheus Martins\\Desktop\\Xamarin\\App-Xamarin\\Desafio\\Desafio.Android\\Desafio.Android.csproj",
       "packagesPath": "C:\\Users\\Matheus Martins\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Matheus Martins\\Desktop\\Xamarin\\Desafio\\Desafio.Android\\obj\\",
+      "outputPath": "C:\\Users\\Matheus Martins\\Desktop\\Xamarin\\App-Xamarin\\Desafio\\Desafio.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -2453,8 +2453,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "C:\\Users\\Matheus Martins\\Desktop\\Xamarin\\Desafio\\Desafio\\Desafio.csproj": {
-              "projectPath": "C:\\Users\\Matheus Martins\\Desktop\\Xamarin\\Desafio\\Desafio\\Desafio.csproj"
+            "C:\\Users\\Matheus Martins\\Desktop\\Xamarin\\App-Xamarin\\Desafio\\Desafio\\Desafio.csproj": {
+              "projectPath": "C:\\Users\\Matheus Martins\\Desktop\\Xamarin\\App-Xamarin\\Desafio\\Desafio\\Desafio.csproj"
             }
           }
         }

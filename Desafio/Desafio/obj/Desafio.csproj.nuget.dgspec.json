@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Matheus Martins\\Desktop\\Xamarin\\Desafio\\Desafio\\Desafio.csproj": {}
+    "C:\\Users\\Matheus Martins\\Desktop\\Xamarin\\App-Xamarin\\Desafio\\Desafio\\Desafio.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Matheus Martins\\Desktop\\Xamarin\\Desafio\\Desafio\\Desafio.csproj": {
+    "C:\\Users\\Matheus Martins\\Desktop\\Xamarin\\App-Xamarin\\Desafio\\Desafio\\Desafio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Matheus Martins\\Desktop\\Xamarin\\Desafio\\Desafio\\Desafio.csproj",
+        "projectUniqueName": "C:\\Users\\Matheus Martins\\Desktop\\Xamarin\\App-Xamarin\\Desafio\\Desafio\\Desafio.csproj",
         "projectName": "Desafio",
-        "projectPath": "C:\\Users\\Matheus Martins\\Desktop\\Xamarin\\Desafio\\Desafio\\Desafio.csproj",
+        "projectPath": "C:\\Users\\Matheus Martins\\Desktop\\Xamarin\\App-Xamarin\\Desafio\\Desafio\\Desafio.csproj",
         "packagesPath": "C:\\Users\\Matheus Martins\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Matheus Martins\\Desktop\\Xamarin\\Desafio\\Desafio\\obj\\",
+        "outputPath": "C:\\Users\\Matheus Martins\\Desktop\\Xamarin\\App-Xamarin\\Desafio\\Desafio\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
