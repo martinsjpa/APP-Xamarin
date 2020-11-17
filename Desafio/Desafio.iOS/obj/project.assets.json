@@ -227,6 +227,20 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.Forms.Maps/4.8.0.1451": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "4.8.0.1451"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll": {}
+        }
+      },
       "Desafio/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -234,6 +248,7 @@
           "Newtonsoft.Json": "12.0.3",
           "Xamarin.Essentials": "1.5.3.2",
           "Xamarin.Forms": "4.8.0.1451",
+          "Xamarin.Forms.Maps": "4.8.0.1451",
           "sqlite-net-pcl": "1.7.335"
         },
         "compile": {
@@ -470,6 +485,20 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.Forms.Maps/4.8.0.1451": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "4.8.0.1451"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll": {}
+        }
+      },
       "Desafio/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -477,6 +506,7 @@
           "Newtonsoft.Json": "12.0.3",
           "Xamarin.Essentials": "1.5.3.2",
           "Xamarin.Forms": "4.8.0.1451",
+          "Xamarin.Forms.Maps": "4.8.0.1451",
           "sqlite-net-pcl": "1.7.335"
         },
         "compile": {
@@ -713,6 +743,20 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.Forms.Maps/4.8.0.1451": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "4.8.0.1451"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll": {}
+        }
+      },
       "Desafio/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -720,6 +764,7 @@
           "Newtonsoft.Json": "12.0.3",
           "Xamarin.Essentials": "1.5.3.2",
           "Xamarin.Forms": "4.8.0.1451",
+          "Xamarin.Forms.Maps": "4.8.0.1451",
           "sqlite-net-pcl": "1.7.335"
         },
         "compile": {
@@ -956,6 +1001,20 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.Forms.Maps/4.8.0.1451": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "4.8.0.1451"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll": {}
+        }
+      },
       "Desafio/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -963,6 +1022,7 @@
           "Newtonsoft.Json": "12.0.3",
           "Xamarin.Essentials": "1.5.3.2",
           "Xamarin.Forms": "4.8.0.1451",
+          "Xamarin.Forms.Maps": "4.8.0.1451",
           "sqlite-net-pcl": "1.7.335"
         },
         "compile": {
@@ -1497,6 +1557,43 @@
         "xamarin.forms.nuspec"
       ]
     },
+    "Xamarin.Forms.Maps/4.8.0.1451": {
+      "sha512": "oo5hvE7AaVFBWikESuf/sp31u9dh0DoA3Samc9h9O0jcm05uJMq+GNbNQ4rEoflaQIcXSH+5SVx039/RSI1OsA==",
+      "type": "package",
+      "path": "xamarin.forms.maps/4.8.0.1451",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Assets/xamarin_128x128.png",
+        "lib/MonoAndroid10.0/Xamarin.Forms.Maps.Android.dll",
+        "lib/MonoAndroid10.0/Xamarin.Forms.Maps.dll",
+        "lib/MonoAndroid10.0/Xamarin.Forms.Maps.xml",
+        "lib/MonoAndroid90/Xamarin.Forms.Maps.Android.dll",
+        "lib/MonoAndroid90/Xamarin.Forms.Maps.dll",
+        "lib/MonoAndroid90/Xamarin.Forms.Maps.xml",
+        "lib/Xamarin.Mac/Xamarin.Forms.Maps.dll",
+        "lib/Xamarin.Mac/Xamarin.Forms.Maps.macOS.dll",
+        "lib/Xamarin.Mac/Xamarin.Forms.Maps.xml",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Maps.xml",
+        "lib/netstandard1.0/Xamarin.Forms.Maps.dll",
+        "lib/netstandard1.0/Xamarin.Forms.Maps.xml",
+        "lib/netstandard2.0/Xamarin.Forms.Maps.dll",
+        "lib/netstandard2.0/Xamarin.Forms.Maps.xml",
+        "lib/tizen40/Xamarin.Forms.Maps.Tizen.dll",
+        "lib/tizen40/Xamarin.Forms.Maps.dll",
+        "lib/tizen40/Xamarin.Forms.Maps.xml",
+        "lib/uap10.0.14393/Xamarin.Forms.Maps.UWP.dll",
+        "lib/uap10.0.14393/Xamarin.Forms.Maps.UWP.pri",
+        "lib/uap10.0.14393/Xamarin.Forms.Maps.dll",
+        "lib/uap10.0.16299/Xamarin.Forms.Maps.UWP.dll",
+        "lib/uap10.0.16299/Xamarin.Forms.Maps.UWP.pri",
+        "lib/uap10.0.16299/Xamarin.Forms.Maps.dll",
+        "xamarin.forms.maps.4.8.0.1451.nupkg.sha512",
+        "xamarin.forms.maps.nuspec"
+      ]
+    },
     "Desafio/1.0.0": {
       "type": "project",
       "path": "../Desafio/Desafio.csproj",
@@ -1509,6 +1606,7 @@
       "Newtonsoft.Json >= 12.0.3",
       "Xamarin.Essentials >= 1.5.3.2",
       "Xamarin.Forms >= 4.8.0.1451",
+      "Xamarin.Forms.Maps >= 4.8.0.1451",
       "sqlite-net-pcl >= 1.7.335"
     ]
   },
@@ -1563,6 +1661,10 @@
             "version": "[1.5.3.2, )"
           },
           "Xamarin.Forms": {
+            "target": "Package",
+            "version": "[4.8.0.1451, )"
+          },
+          "Xamarin.Forms.Maps": {
             "target": "Package",
             "version": "[4.8.0.1451, )"
           },

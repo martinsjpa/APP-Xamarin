@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ox1E/udda/Lcz/v76fNGbvauen9WArBEn2EVlPFqEJIgdbbXAdKhR9zjQaORKe64cPKFgBIyzwkHvuW4dU1UCQ==",
+  "dgSpecHash": "do9elolKdpYetSEf70cXFO8TTUAXfgesKReeCFRhma90W90FuUwy3+QvLfszRO5tH6JIpCLev1E/7dc/hOplAw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Matheus Martins\\Desktop\\Xamarin\\Desafio\\Desafio\\Desafio.csproj",
   "expectedPackageFiles": [
@@ -17,7 +17,8 @@
     "C:\\Users\\Matheus Martins\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\Matheus Martins\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
-    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.8.0.1451\\xamarin.forms.4.8.0.1451.nupkg.sha512"
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.8.0.1451\\xamarin.forms.4.8.0.1451.nupkg.sha512",
+    "C:\\Users\\Matheus Martins\\.nuget\\packages\\xamarin.forms.maps\\4.8.0.1451\\xamarin.forms.maps.4.8.0.1451.nupkg.sha512"
   ],
   "logs": []
 }

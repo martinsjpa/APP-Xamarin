@@ -15,3 +15,4 @@ C:\Users\Matheus Martins\Desktop\Xamarin\Desafio\Desafio\obj\Debug\netstandard2.
 C:\Users\Matheus Martins\Desktop\Xamarin\Desafio\Desafio\obj\Debug\netstandard2.0\Views\Tabbed.xaml.g.cs
 C:\Users\Matheus Martins\Desktop\Xamarin\Desafio\Desafio\obj\Debug\netstandard2.0\Views\CepDetails.xaml.g.cs
 C:\Users\Matheus Martins\Desktop\Xamarin\Desafio\Desafio\obj\Debug\netstandard2.0\Views\CepList.xaml.g.cs
+C:\Users\Matheus Martins\Desktop\Xamarin\Desafio\Desafio\obj\Debug\netstandard2.0\Views\SearchCepMap.xaml.g.cs
